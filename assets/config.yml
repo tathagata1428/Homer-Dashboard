@@ -1,0 +1,190 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: "Bogdan dashboard"
+subtitle: "Homer"
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: false
+footer: <p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a></p>
+
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+# Optional message
+message:
+  #url: https://b4bz.io
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "Have a great day !"
+  icon: "fa fa-grin"
+  content: "This is Bogdan`s home portal. <br /> Find more information on <a href='https://github.com/tathagata1428'>github.com/tathagata1428</a>"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "Contribute"
+    icon: "fab fa-github"
+    url: "https://github.com/tathagata1428"
+    target: "_blank" # optional html a tag target attribute
+  - name: "Wiki"
+    icon: "fas fa-book"
+    url: "https://www.wikipedia.org/"
+  # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+  # see url field and assets/additional-page.yml.dist used in this example:
+  #- name: "another page!"
+  #  icon: "fas fa-file-alt"
+  #  url: "#additional-page" 
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Storage"
+    icon: "fa-fw fas fa-cloud"
+    items:
+      - name: "NextCloud"
+        logo: "assets/icons/rocket-launch-9978.png"
+        subtitle: "Personal Cloud Storage"
+        tag: "Storage"
+        keywords: "self hosted reddit"
+        url: "https://cloud.b4it.ro"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Home - Nas"
+        logo: "assets/icons/server-cloud-storage-12279.png"
+        subtitle: "Home Nas"
+        tag: "Storage"
+        url: "https://b4it1428.tnas.link/"
+      - name: "Sharedpoint -B4it.ro"
+        logo: "assets/icons/server-cloud-storage-12279.png"
+        subtitle: "1Tb storage and backups"
+        tag: "Storage"
+        url: "https://tralaa12-my.sharepoint.com/personal/bogdan_radu_b4it_ro//_layouts/15/onedrive.aspx?login_hint=bogdan%2Eradu%40b4it%2Ero&view=1"
+      - name: "Google drive"
+        logo: "assets/icons/google-plus-110.png"
+        subtitle: "1Tb - photos and backups"
+        tag: "Storage"
+        url: "https://drive.google.com/drive/my-drive"
+
+    
+
+  - name: "AI"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Chatgpt"
+        logo: "assets/icons/artificial-intelligence-14078.png"
+        subtitle: "Chatgpt - Gpt4 language model"
+        tag: "AI -Assistant"
+        keywords: "self hosted reddit"
+        url: "https://chat.openai.com/?model=gpt-4"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Claude"
+        logo: "assets/icons/chatbot-robot-14056.png"
+        subtitle: "Claude AI Assistant"
+        tag: "AI -Assistant"
+        url: "https://claude.ai/chats"
+      - name: "Open Assistant"
+        logo: "assets/icons/artificial-intelligence-14077.png"
+        subtitle: "Another application"
+        tag: "AI -Assistant"
+        url: "https://open-assistant.io/"
+
+  - name: "Web - Apps"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Password Manager"
+        logo: "assets/icons/passbolt-logo-black-and-white.png"
+        subtitle: "Passbolt -PasswordManager "
+        tag: "Password manager"
+        keywords: "Passbolt"
+        url: "https://password.b4it.ro"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Secure Search Engine"
+        logo: "assets/icons/duck-381.png"
+        subtitle: "Duck Duck GO "
+        tag: "Search Engine"
+        keywords: "Office365"
+        url: "https://duckduckgo.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Online AV scanner"
+        logo: "assets/icons/Virustotal_logo_pixelalign.png"
+        subtitle: "Online Antivirus Scanner "
+        tag: "Search Engine"
+        keywords: "Office365"
+        url: "https://duckduckgo.com/"
+        target: "_blank" # optional html a tag target attribute
+
+
+      - name: "Personal Email"
+        logo: "assets/icons/paper-plane-2563.svg"
+        subtitle: "Personal email"
+        tag: "Email,Personal"
+        keywords: "Office365"
+        url: "https://outlook.office.com/mail/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Notion"
+        logo: "assets/icons/icons8-notion-64.png"
+        subtitle: "Notion - Second brain"
+        tag: "Notes"
+        url: "https://www.notion.so/Minimal-dashboard-85aff8324f1c42ee987c010343e1597a"
+  - name: "Cloud Infrastructure"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Oracle Cloud"
+        logo: "assets/icons/Oracle_Cloud_logo.jpg"
+        subtitle: "Main infra hosting"
+        tag: "Infra"
+        keywords: "self hosted reddit"
+        url: "https://www.oracle.com/cloud/sign-in.html"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Gandi.net"
+        logo: "assets/icons/gandi_logo_icon_171115.png"
+        subtitle: "Domain hosting"
+        tag: "Infra"
+        keywords: "self hosted reddit"
+        url: "https://id.gandi.net/en/login?redirect=https%3A%2F%2Fid."
+        target: "_blank" # optional html a tag target attribute
+
+      - name: "Linode"
+        logo: "assets/icons/Linode-Logo.wine.png"
+        subtitle: "Secondary infra"
+        tag: "Infra"
+        keywords: "self hosted reddit"
+        url: "https://www.linode.com/"
+        target: "_blank" # optional html a tag target attribute
+
+
+
+     
+      
+
+
